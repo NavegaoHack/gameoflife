@@ -1,0 +1,72 @@
+Este videojuego es una implementación del "Juego de la Vida"
+hecho en Python, usando Pygame, Numpy, y un entorno virtual.
+
+No se necesita instalar nada, puede ejecutar el videojuego
+desde la terminal, dentro de la carpeta, escribiendo:
+
+"$ ./game.sh"
+
+Recordar habilitar los permisos de ejecución, puede hacerlo
+escribiendo:
+
+"$ chmod +x game.sh"
+
+O ejecutando los siguientes pasos:
+Clic derecho -> Propiedades -> Permisos -> Permitir ejecutar el archivo como un programa
+
+INSTRUCCIONES:
+
+Click Izquierdo: revive a un cuadro (color blanco)
+Click Derecho: mata a un cuadro (color negro)
+Presionar cualquier tecla: Pausa / Reanuda el Juego (color Rojo / Blanco)
+
+AUTÓMATAS:
+Cada (##) representa un cuadrado.
+Deben ser dibujados con el juego pausado (Lineas Color Rojo):
+
+1. Autómata Palo: dibuje la siguiente forma:
+
+                    ##
+                    ##
+                    ##
+
+2. Autómata Bloque: dibuje la siguiente forma:
+
+                    ## ##
+                    ## ##
+
+3 Autómata Sapo: dibuje la siguiente forma:
+
+                    ## ## ##
+                ## ## ##
+
+4 Autómata Planeador: dibuje la siguiente forma:
+
+                    ## ## ##
+                    ##
+                       ##
+
+5 Autómata Barco: dibuje la siguente forma:
+
+                    ## ##
+                    ##    ##
+                    ##
+
+6 Autómata Nave ligera: dibuje la siguente forma:
+
+                ## -- -- -- ##
+                ##
+                ##          ##
+                ## ## ## ##
+
+7 Autómata Diehard: dibuje la siguiente forma:
+
+                            ##
+            ## ##  
+            ## -- -- -- ## ## ##
+
+8 Autómata Acom: dibuje la siguiente forma:
+
+            ##
+                -- ##
+            ## ## -- -- ## ## ##
